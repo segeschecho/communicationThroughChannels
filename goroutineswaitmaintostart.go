@@ -32,6 +32,9 @@ func waitToStart(ready chan bool, data chan string, errorChan chan error){
 		errorChan <- nil
 
 	}
+
+	fmt.Println("Ahora que main dijo que está Ready, se procesa la información")
+	fmt.Println("Informacion recibida:", dataArr)
 }
 
 func goRoutinesWaitMainToStart() {
