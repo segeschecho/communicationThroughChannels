@@ -22,6 +22,9 @@ func main() {
 	//raceCondition2()
 
 	//
-	goRoutinesWaitMainToStart()
+	//goRoutinesWaitMainToStart()
+
+	//
+	queueToProcess()
 }
 
