@@ -25,6 +25,9 @@ func main() {
 	//goRoutinesWaitMainToStart()
 
 	//
-	queueToProcess()
+	//queueToProcess()
+
+	//
+	serverHttp()
 }
 
