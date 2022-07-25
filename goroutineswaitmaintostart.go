@@ -37,8 +37,7 @@ func waitToStart(ready chan bool, data chan string, errorChan chan error){
 	fmt.Println("Informacion recibida:", dataArr)
 }
 
-func goRoutinesWaitMainToStart() {
-	dataToSend := []string{"1", "2", "3", "4"}
+func goRoutinesWaitMainToStart(dataToSend []string)  {
 
 	readyChan := make(chan bool)
 	dataChan := make(chan string)
